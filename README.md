@@ -1,24 +1,10 @@
-# parafernalia-frontend
+# Parafernalia Frontend Test
 
-## Project setup
-```
-npm install
-```
+### Como inicializar:
+- npm i
+- npm run serve
+- http://localhost:8080/ (ou porta configurada)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Considerações:
+- Key da API provida estava com o limite estourado. Usei a minha própria. Caso ela também estoure na hora de testarem, por favor mudem a key no arquivo youtubeAPI.js
+- Responsividade testada para >1024px e <480px.
