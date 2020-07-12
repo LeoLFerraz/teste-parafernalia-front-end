@@ -1,0 +1,21 @@
+$c-surface: #222;
+$c-surface-darker: #111;
+$c-primary: #102A43;
+$c-secondary: #243B53;
+$c-secondary-lighter: #627D98;
+
+// Fonts:
+$c-high-contrast: #F0F4F8;
+$c-low-contrast: #D9E2EC;
+$c-disabled: rgba($c-low-contrast, 0.5);
+
+// General and Interactions:
+$c-blue: #303F9F;
+$c-gray: #BDBDBD;
+$c-green: #00897B;
+$c-orange: #FF8F00;
+$c-red: #C62828;
+$c-purple: #673AB7;
+
+// Breakpoints:
+$breakpoint-mobile: 768px;
